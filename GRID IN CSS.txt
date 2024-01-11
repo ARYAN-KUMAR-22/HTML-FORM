@@ -1,0 +1,25 @@
+-> HERE IS THE CODE
+
+-------------------------------------------------------------------------->
+
+
+.Content-Grid {
+  display: grid;
+  grid-template-columns: [full-width-start] 100px [ breakout-start] 100px [ breakout-end] 100px [full-width-end];
+}
+
+.Content-Grid > * {
+  grid-column: Content;
+}
+
+.Content-grid > .breakout {
+  grid-column: breakout;
+}
+
+.Content-Grid > .fullwidth {
+  grid-column: full-width;
+}
+
+------------------------------------------------------------------------>
+
+https://www.youtube.com/watch?v=c13gpBrnGEw&t=313s
